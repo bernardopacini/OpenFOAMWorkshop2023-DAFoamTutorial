@@ -43,6 +43,7 @@ This is an example of airfoil optimization with DAFoam and the simpleFoam incomp
 
 ```
 cd Part1/
+cp -r 0.orig 0
 mpirun -np <number of cores> python runScript.py
 ```
 Part 2 - Wing Aerodynamic Optimization
@@ -52,6 +53,7 @@ This is an example of wing aerodynamic optimization with DAFoam and the rhoSimpl
 
 ```
 cd Part2/
+cp -r 0.orig 0
 mpirun -np <number of cores> python runScript.py
 ```
 
@@ -62,5 +64,6 @@ This is an example of wing aerostructural optimization with DAFoam and the rhoSi
 
 ```
 cd Part3/
+cp -r 0.orig 0
 mpirun -np <number of cores> python runScript.py
 ```
